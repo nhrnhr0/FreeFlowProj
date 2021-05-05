@@ -1704,12 +1704,12 @@ section {
             flex-direction: column;
   }
   #map_section #map {
-    height: 100%;
+    height: 50%;
     width: 100%;
   }
   #map_section .urban-logo {
     width: 100%;
-    height: 100%;
+    height: 50%;
   }
 }
 
