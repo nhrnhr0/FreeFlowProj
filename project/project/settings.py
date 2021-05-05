@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-0@gca2!an^(v-(ru#yl6b8)v1!i+qr$=eh)&ij53up3#zp-ano'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['freeflow.ms-global.co.il']
 
 
 # Application definition
