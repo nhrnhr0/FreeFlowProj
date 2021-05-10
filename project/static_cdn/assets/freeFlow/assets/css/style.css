@@ -1680,7 +1680,7 @@ section {
   height: 100%;
 }
 
-#map_section .map_container .urban-logo div {
+#map_section div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1692,7 +1692,7 @@ section {
           align-items: center;
 }
 
-#map_section .map_container .urban-logo div .urbanit-link {
+#map_section div .urbanit-link {
   font-size: larger;
 }
 

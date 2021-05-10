@@ -1670,16 +1670,18 @@ section {
                 height: 100%;
             }
 
-            div {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            
 
-                .urbanit-link {
-                    font-size: larger;
-                }
-            }
+        }
+    }
+    
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        .urbanit-link {
+            font-size: larger;
         }
     }
 }
