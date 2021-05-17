@@ -171,11 +171,18 @@
       once: true
     });
   }
+
+  function initUrbanIframe() {
+    var iframe = document.getElementById('urbanit-iframe');
+    iframe.setAttribute('src', 'https://mashtela-urbanit.co.il/');
+
+  }
   $(window).on('load', function () {
     aos_init();
     youTubes_makeDynamic();
     initMap();
     initCountriesDropDown();
+    initUrbanIframe();
     //setCurrentLanguage();
   });
   /*
@@ -268,7 +275,7 @@ function initCountriesDropDown(){
         lat: 32.073582,
         lng: 34.788052
       },
-      zoom: 12,
+      zoom: 13,
       mapTypeId: 'hybrid',
     });
 
