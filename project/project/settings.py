@@ -52,6 +52,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'project.urls'
 
+X_FRAME_OPTIONS = 'ALLOW-FROM http://freeflow.ms-global.co.il/'
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
