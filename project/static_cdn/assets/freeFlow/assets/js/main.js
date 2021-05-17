@@ -175,7 +175,7 @@
   function initUrbanIframe() {
     var iframe = document.getElementById('urbanit-iframe');
     iframe.setAttribute('src', 'https://mashtela-urbanit.co.il/');
-
+    console.log('set iframe to https://mashtela-urbanit.co.il/');
   }
   $(window).on('load', function () {
     aos_init();

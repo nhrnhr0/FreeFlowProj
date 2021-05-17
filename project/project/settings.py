@@ -52,7 +52,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'project.urls'
 
-X_FRAME_OPTIONS = 'ALLOW-FROM http://freeflow.ms-global.co.il/'
+X_FRAME_OPTIONS = 'ALLOW-FROM https://mashtela-urbanit.co.il/'
 
 
 TEMPLATES = [
