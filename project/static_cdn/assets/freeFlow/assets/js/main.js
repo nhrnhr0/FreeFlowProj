@@ -223,7 +223,7 @@ function initCountriesDropDown(){
       ytKey = tmp[0];
       var $ytLoader = $('<div class="ytLoader">');
 
-      $ytLoader.append($('<img class="youtube-cover" src="https://i3.ytimg.com/vi/' + ytKey + '/maxresdefault.jpg">'));
+      $ytLoader.append($('<img class="youtube-cover" src="https://i3.ytimg.com/vi/' + ytKey + '/maxresdefault.jpg"  loading="lazy" width="100%" hight="100%" >'));
       //$ytLoader.append($('<img class="youtube-cover" src="https://i.ytimg.com/vi/'+ytKey+'/hqdefault.jpg">'));
       $ytLoader.append($('<div class="playBtn"></div>'));
       $ytLoader.data('$ytFrame', $ytFrame);
