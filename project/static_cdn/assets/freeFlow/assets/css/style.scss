@@ -188,12 +188,14 @@ h6 {
 }
 
 @media (max-width: 768px) {
-    #header #logo {
+    #header 
+    #logo {
         h1 {
             font-size: 26px;
         }
 
         img {
+            display: none;
             max-height: 40px;
         }
     }

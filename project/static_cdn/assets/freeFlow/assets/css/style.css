@@ -174,10 +174,13 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #header #logo h1 {
+  #header
+#logo h1 {
     font-size: 26px;
   }
-  #header #logo img {
+  #header
+#logo img {
+    display: none;
     max-height: 40px;
   }
 }
