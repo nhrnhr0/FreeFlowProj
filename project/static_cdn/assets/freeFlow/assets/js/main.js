@@ -287,8 +287,11 @@ function initCountriesDropDown(){
         var infowindow = new google.maps.InfoWindow();
 
         var marker, i;
-    
+        var lngAvg = 0;
+        var latAvg = 0;
         for (i = 0; i < locations.length; i++) {
+          lngAvg += locations[i].lng;
+          latAvg += locations[i].lat;
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i].lng, locations[i].lat),
             map: map
@@ -308,6 +311,10 @@ function initCountriesDropDown(){
             }
           })(marker, i));
         }
+        
+        latAvg /= locations.length;
+        lngAvg /= locations.length;
+        map.setCenter(new google.maps.LatLng(lngAvg,latAvg));
       }
       
     });
