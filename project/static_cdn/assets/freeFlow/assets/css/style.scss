@@ -195,7 +195,7 @@ h6 {
         }
 
         img {
-            display: none;
+            //display: none;
             max-height: 40px;
         }
     }
@@ -1637,14 +1637,14 @@ section {
     }
 
     .map_container{
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         #map {
-            height: 65%;
-            width: 65%;
+            height: 65vh;
+            width: 65vw;
         }
     }
 }
@@ -1655,7 +1655,7 @@ section {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        padding-top: 150px;
+        //padding-top: 150px;
         iframe {
             width: 100%;
             height: 100%;
@@ -1698,8 +1698,8 @@ section {
     
         .map_container{
             #map {
-                height: 85%;
-                width: 85%;
+                height: 85vh;
+                width: 85vw;
             }
         }
     }
@@ -1720,8 +1720,8 @@ section {
     #map_section {
         .map_container{
             #map {
-                height: 55%;
-                width: 85%;
+                height: 55vh;
+                width: 85vw;
             }
         }
     }

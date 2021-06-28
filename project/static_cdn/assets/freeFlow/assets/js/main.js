@@ -174,8 +174,8 @@
 
   function initUrbanIframe() {
     var iframe = document.getElementById('urbanit-iframe');
-    iframe.setAttribute('src', 'https://mashtela-urbanit.co.il/');
-    console.log('set iframe to https://mashtela-urbanit.co.il/');
+    iframe.setAttribute('src', 'https://mashtela-urbanit.co.il/catalog/tools/%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA-%D7%94%D7%A9%D7%A7%D7%99%D7%99%D7%94-%D7%91%D7%99%D7%AA%D7%99%D7%AA-free-flow-detail');
+    console.log('set iframe to https://mashtela-urbanit.co.il/catalog/tools/%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA-%D7%94%D7%A9%D7%A7%D7%99%D7%99%D7%94-%D7%91%D7%99%D7%AA%D7%99%D7%AA-free-flow-detail');
   }
   $(window).on('load', function () {
     aos_init();
@@ -275,7 +275,7 @@ function initCountriesDropDown(){
         lat: 32.073582,
         lng: 34.788052
       },
-      zoom: 13,
+      zoom: 15,
       mapTypeId: 'hybrid',
     });
 
